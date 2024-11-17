@@ -1,0 +1,98 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(https://wallpaperaccess.com/full/5524035.jpg); */
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.MK-yUN_7Ru74_VEXNhaSEgHaE7%26pid%3DApi&f=1&ipt=836f66db85f6f55c6afa90ee238c127376e9f94d9d99faa9559c460089063412&ipo=images);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    color: #fff;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: min-content, repeat(2, max-content);
+    gap: 20px;
+    padding: 30px;
+}
+
+div {
+    height: 900px;
+    color: #fff;
+}
+
+p {
+    background-color: #333c;
+    height: 100%;
+    margin: 0;
+}
+
+.hide {
+    opacity: 0;
+    height: min-content;
+}
+.center {
+    height: min-content;
+    background-image: url(https://okdiario.com/img/2021/06/08/paises-potencial-mundo.jpeg);
+    background-size: cover;
+    background-attachment: scroll;
+    font-size: 25px;
+    text-align: center;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+.arrow-img {
+    height: 50px;
+    width: 100px;
+}
+
+.arrow-img1 {
+    rotate: -50deg;
+    margin-left: 300px;
+}
+
+.arrow-img2 {
+    rotate: 90deg;
+    margin: 30px;
+    position: relative;
+    left: 100px;
+}
+
+.arrow-img3 {
+    rotate: 50deg;
+    margin-right: 300px;
+}
+
+.potencias {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.2jMtQEgxoAuE0bcVu_MX6AAAAA%26pid%3DApi&f=1&ipt=ecc229a24f3d49bfbd76b95c8fda706c60dbd568638057a335af4e3cacbb5a9c&ipo=images);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.economias {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.fteuyoXvewr2lT265lg6DwHaFD%26pid%3DApi&f=1&ipt=ac7cedf06f7dce612404c7ce08785294334e78ef960324461d757c6e13eee9f4&ipo=images);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.conflicto {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Felmundoinfinito.com%2Fwp-content%2Fuploads%2F2022%2F09%2Fconflictos-territoriales.jpg&f=1&nofb=1&ipt=06f08a43eb06d6c2590338ce3f80da8c87645e835fb75ced1bf2c1e2237bfe1d&ipo=images);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
